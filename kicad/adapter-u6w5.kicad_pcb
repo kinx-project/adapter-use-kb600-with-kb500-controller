@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 6)
     (tracks 1)
     (zones 0)
-    (modules 4)
+    (modules 5)
     (nets 12)
   )
 
@@ -37,6 +37,7 @@
 
   (setup
     (last_trace_width 0.25)
+    (user_trace_width 2.54)
     (trace_clearance 0.1524)
     (zone_clearance 0.2)
     (zone_45_only no)
@@ -128,10 +129,6 @@
     (add_net "Net-(J1-Pad12)")
     (add_net "Net-(J1-Pad2)")
     (add_net "Net-(J1-Pad9)")
-    (add_net "Net-(J5-Pad10)")
-    (add_net "Net-(J5-Pad6)")
-    (add_net "Net-(J5-Pad7)")
-    (add_net "Net-(J5-Pad9)")
     (add_net "Net-(J6-Pad1)")
     (add_net "Net-(J6-Pad10)")
     (add_net "Net-(J6-Pad2)")
@@ -143,6 +140,22 @@
     (add_net "Net-(J8-Pad5)")
     (add_net "Net-(J8-Pad7)")
     (add_net "Net-(J8-Pad8)")
+  )
+
+  (module panelizationtab:tab (layer F.Cu) (tedit 5EFB9408) (tstamp 5EFBF165)
+    (at 125.857 132.715 90)
+    (fp_text reference REF** (at 0 0.5 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value tab (at 0 -0.5 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 4 thru_hole circle (at -1.016 1.905 90) (size 0.51 0.51) (drill 0.254) (layers *.Cu *.Mask))
+    (pad 6 thru_hole circle (at 1.016 1.905 90) (size 0.51 0.51) (drill 0.254) (layers *.Cu *.Mask))
+    (pad 5 thru_hole circle (at 0 1.905 90) (size 0.51 0.51) (drill 0.254) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -1.016 0 90) (size 0.51 0.51) (drill 0.254) (layers *.Cu *.Mask))
+    (pad 3 thru_hole circle (at 1.016 0 90) (size 0.51 0.51) (drill 0.254) (layers *.Cu *.Mask))
+    (pad 2 thru_hole circle (at 0 0 90) (size 0.51 0.51) (drill 0.254) (layers *.Cu *.Mask))
   )
 
   (module kinx:39-53-2135 (layer F.Cu) (tedit 5EE5D146) (tstamp 5EE7DB2B)
@@ -379,6 +392,8 @@
       (solder_mask_margin 0.0635))
   )
 
+  (gr_line (start 126.746 135.128) (end 126.746 138.303) (layer Edge.Cuts) (width 2.54) (tstamp 5EFB90E5))
+  (gr_line (start 126.746 127) (end 126.746 130.302) (layer Edge.Cuts) (width 2.54))
   (gr_line (start 95.25 138.176) (end 158.115 138.176) (layer Edge.Cuts) (width 0.05) (tstamp 764B18E0))
   (gr_line (start 158.115 138.176) (end 158.115 127) (layer Edge.Cuts) (width 0.05) (tstamp 764B1D10))
   (gr_line (start 158.115 127) (end 95.25 127) (layer Edge.Cuts) (width 0.05) (tstamp 5EE7E5A8))
