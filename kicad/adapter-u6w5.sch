@@ -33,9 +33,9 @@ NoConn ~ 10100 5350
 NoConn ~ 10100 5550
 NoConn ~ 10100 5650
 Text Label 9750 4750 0    50   ~ 10
-ROW_4
+ROW_4_L
 Text Label 9750 4950 0    50   ~ 10
-ROW_5
+ROW_5_L
 $Comp
 L Connector_Generic:Conn_01x10 J5
 U 1 1 2978C288
@@ -48,37 +48,37 @@ F 3 "" H 10300 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9750 5450 0    50   ~ 10
-ROW_3
+ROW_3_L
 Text Label 9750 5150 0    50   ~ 0
-COL_5
+COL_5_L
 Text Label 9750 5050 0    50   ~ 0
-COL_6
+COL_6_L
 Text Label 1900 5250 2    50   ~ 10
-ROW_9
+ROW_9_R
 Wire Wire Line
 	1900 5250 1600 5250
 Text Label 1900 5350 2    50   ~ 0
-COL_6
+COL_6_R
 Wire Wire Line
 	1600 5350 1900 5350
 Text Label 1900 5450 2    50   ~ 0
-COL_5
+COL_5_R
 Wire Wire Line
 	1900 5450 1600 5450
 Text Label 1900 5150 2    50   ~ 0
-ROW_8
+ROW_8_R
 Wire Wire Line
 	1900 5150 1600 5150
 Text Label 1900 5050 2    50   ~ 0
-ROW_7
+ROW_7_R
 Wire Wire Line
 	1900 5050 1600 5050
 Text Label 1900 4950 2    50   ~ 10
-ROW_6
+ROW_6_R
 Wire Wire Line
 	1900 4950 1600 4950
 Text Label 9750 4850 0    50   ~ 10
-ROW_2
+ROW_2_L
 Wire Wire Line
 	9750 4750 10100 4750
 Wire Wire Line
@@ -157,23 +157,23 @@ $EndComp
 NoConn ~ 3350 5850
 NoConn ~ 3350 5750
 Text Label 3650 5250 2    50   ~ 10
-ROW_9
+ROW_9_R
 Wire Wire Line
 	3650 5450 3350 5450
 Text Label 3650 5350 2    50   ~ 0
-COL_6
+COL_6_R
 Text Label 3650 5450 2    50   ~ 0
-COL_5
+COL_5_R
 Text Label 3650 5150 2    50   ~ 0
-ROW_8
+ROW_8_R
 Wire Wire Line
 	3650 5350 3350 5350
 Text Label 3650 5050 2    50   ~ 0
-ROW_7
+ROW_7_R
 Wire Wire Line
 	3650 5250 3350 5250
 Text Label 3650 4950 2    50   ~ 10
-ROW_6
+ROW_6_R
 Wire Wire Line
 	3650 5150 3350 5150
 Text Notes 2800 5450 2    50   ~ 0
@@ -213,9 +213,9 @@ NoConn ~ 8350 5350
 NoConn ~ 8350 5550
 NoConn ~ 8350 5850
 Text Label 8000 4750 0    50   ~ 10
-ROW_4
+ROW_4_L
 Text Label 8000 4950 0    50   ~ 10
-ROW_5
+ROW_5_L
 $Comp
 L Connector_Generic:Conn_01x13 J8
 U 1 1 5F8EDD52
@@ -228,13 +228,13 @@ F 3 "" H 8550 5350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Text Label 8000 5450 0    50   ~ 10
-ROW_3
+ROW_3_L
 Text Label 8000 5150 0    50   ~ 0
-COL_5
+COL_5_L
 Text Label 8000 5050 0    50   ~ 0
-COL_6
+COL_6_L
 Text Label 8000 4850 0    50   ~ 10
-ROW_2
+ROW_2_L
 Wire Wire Line
 	8000 4750 8350 4750
 Wire Wire Line
