@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "kinT use-kb600-with-kb500-controller adapter"
-Date "2020-06-29"
+Date "2020-07-20"
 Rev ""
 Comp "Michael Stapelberg"
-Comment1 "https://github.com/kinx-project/kint"
+Comment1 "https://github.com/kinx-project/adapter-use-kb600-with-kb500-controller"
 Comment2 ""
 Comment3 ""
 Comment4 ""
